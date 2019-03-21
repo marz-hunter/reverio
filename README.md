@@ -6,6 +6,7 @@ Execute the commands in terminal as admin(linux/mac) and as you install modules 
 ```
 sudo pip install requests --upgrade
 sudo pip install pysocks
+sudo pip install urllib3
 sudo /etc/init.d/tor start
 ```
 # Usage Guide
