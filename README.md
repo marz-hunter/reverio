@@ -15,4 +15,4 @@ Then run the script by typing
 ```
 python rev-ip-tor.py -l your_ip_list.txt
 ```
-where your_ip_list.txt is a list file containing ip list(one per line)
+where your_ip_list.txt is a list file containing ip list(one per line)<br>Check out comments written in the script top for more on it!
