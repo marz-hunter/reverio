@@ -1,6 +1,4 @@
-# Hacker-Target Reverse IP Lookup TOOL
-A handy python based tool designed to find domains list from the IP address list file<br>
-<br><b>*** New Arrival on the repository: tor version of the script ***</b><br>
+# htarget reverseip
 # Requirements
 Execute the commands in terminal as admin(linux/mac) and as you install modules of python(windows)
 ```
