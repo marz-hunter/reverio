@@ -15,4 +15,4 @@ for ip in lists:
         continue
     grab = grab.split('\n')
     for domain in grab:
-        open('grabbed.txt', 'a+').write(domain + '\n')
+        open('result.txt', 'a+').write(domain + '\n')
