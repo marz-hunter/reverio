@@ -12,6 +12,6 @@ Once you install the required modules, download the file rev-ip-tor.py<br>
 Start tor daemon first<br>
 Then run the script by typing
 ```
-python rev-ip-tor.py -l your_ip_list.txt
+python reviptor.py -l your_ip_list.txt
 ```
 result.txt
