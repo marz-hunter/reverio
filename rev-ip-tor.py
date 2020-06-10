@@ -1,22 +1,3 @@
-# This scipt is specially designed to work with tor socks proxy chain network
-# Make sure you have tor service enabled before executing this script else you will be
-# wasting your time for nothing!
-# I do not hold any responsibility of you being blocked by the source
-# website even while using tor
-# If you fail, make sure you are using right port of tor running in your system
-# To update the tor port with yours, find the lines 127.0.0.1:9050 and replace it with
-# your tor port to make it work correctly.
-# Install following using terminal 
-# *********************** (MUST DO) ***********************
-# sudo pip install requests --upgrade
-# sudo pip install pysocks
-# If you are getting errors, open an issue in the repo!!!
-# Usage: python rev-ip-tor.py -l list.txt
-# Put list of IP address in one line per IP without any extra spaces
-# Successful list should be populated on grabbed.txt under same directory where the script resides
-# Pull requests are welcomed but I do not check new pull requests much, so if your changes are not
-# accepted, don't feel hurt about that.
-# This is a tor integrated version of old reverse ip lookup script
 import sys
 import socket
 import requests
