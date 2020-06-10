@@ -24,7 +24,7 @@ def getList(ip):
             return
         content = content.split('\n')
         for domain in content:
-            open('grabbed.txt', 'a+').write(domain + '\n')
+            open('result.txt', 'a+').write(domain + '\n')
     except:
         print 'Failure on access to the page!'
 
@@ -34,6 +34,6 @@ if len(sys.argv) == 3:
         if ip.strip() == "":
             continue
         getList(ip)
-    print 'Done! Check grabbed.txt file!'
+    print 'Done! Check result.txt file!'
 else:
     print 'Usage: python ' + sys.argv[0] + ' -l ip_list.txt'
