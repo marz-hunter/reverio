@@ -36,4 +36,4 @@ if len(sys.argv) == 3:
         getList(ip)
     print 'Done! Check grabbed.txt file!'
 else:
-    print 'Usage: python ' + sys.argv[0] + ' -l your_ip_list.txt'
+    print 'Usage: python ' + sys.argv[0] + ' -l ip_list.txt'
