@@ -13,6 +13,6 @@ contoh list
 192.168.3.3
 
 
-cara gabungkan??
+cara gabungkannya gmana??
 
 192.168.[list ip 1 sampai 255].[list ip 1 sampai 255]
